@@ -21,7 +21,7 @@ import os
 ROOT_PATH = os.path.dirname(os.path.abspath(__file__))  # 현재 파일의 디렉토리를 루트로 설정
 # 또는
 ROOT_PATH = os.getcwd()  # 현재 작업 디렉토리를 루트로 설정
-CODE_PATH = join(ROOT_PATH, 'code')
+CODE_PATH = ROOT_PATH
 DATA_PATH = join(ROOT_PATH, 'data')
 BOARD_PATH = join(CODE_PATH, 'runs')
 FILE_PATH = join(CODE_PATH, 'checkpoints')

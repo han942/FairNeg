@@ -17,7 +17,6 @@ import register
 from utils import timer
 from register import dataset
 from torch.utils.data import Dataset, DataLoader, Sampler
-from fairsampler import FairBatch
 from Procedure import stats_item
 from parse import parse_args
 

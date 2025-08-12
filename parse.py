@@ -45,7 +45,7 @@ def parse_args():
     parser.add_argument('--seed', type=int, default=2020, help='random seed')
     parser.add_argument('--model', type=str, default='mf', help='rec-model, support [mf, lgn]')
     parser.add_argument('--data_path', type=str, default="ml1m-2")
-    parser.add_argument('--key_genre', nargs='?', default=['Sci-Fi', 'Adventure', 'Children\'s', 'Horror'])
+    parser.add_argument('--key_genre', nargs='?', default=['Sci-Fi','Horror']) # ['Sci-Fi', 'Adventure', 'Children\'s', 'Horror']
     parser.add_argument('--method', type=str, default='fairhardneg')
     parser.add_argument('--br', type=float, default=0.1,
                         help="hard and fair tradeoff param")
