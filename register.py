@@ -11,9 +11,9 @@ elif world.dataset == 'lastfm':
 elif world.dataset == 'yelp_multiclass':
     dataset = dataloader.myLoader(path="/mnt/data/recommend_dataset/yelp_pkl")
 elif world.dataset == 'ml1m-2':
-    dataset = dataloader.myLoader(path="/mnt/data/recommend_dataset/ICDE2023_data_preprocessing/ml1m-2")
+    dataset = dataloader.myLoader(path="ml1m-2")
 elif world.dataset == 'ml1m-4':
-    dataset = dataloader.myLoader(path="/mnt/data/recommend_dataset/ICDE2023_data_preprocessing/ml1m-4")
+    dataset = dataloader.myLoader(path="ml1m-4")
 elif world.dataset == 'amazon':
     dataset = dataloader.myLoader(path="/mnt/data/recommend_dataset/amazon")
 elif world.dataset == 'amazon-2':
